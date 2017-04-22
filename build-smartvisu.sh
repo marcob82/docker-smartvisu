@@ -6,4 +6,4 @@ else
     VERSION=$1
 fi
 
-docker build --rm --build-arg SHNG_SMARTVISU_BRANCH=v$VERSION -t foxi352/smartvisu:$VERSION -t foxi352/smartvisu:latest --file Dockerfile.smartvisu .
+docker build --rm --build-arg SHNG_SMARTVISU_BRANCH=v$VERSION -t foxi352/smartvisu:$VERSION --file Dockerfile.smartvisu .
