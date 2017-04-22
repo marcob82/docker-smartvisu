@@ -5,7 +5,7 @@
 ## Use latest nginx Alpine based images as starting point
 FROM php:7-fpm-alpine
 
-ARG SHNG_SMARTVISU_BRANCH=master
+ARG SHNG_SMARTVISU_BRANCH=develop
 ENV SHNG_SMARTVISU_BRANCH=$SHNG_SMARTVISU_BRANCH
 
 ## Images labels
