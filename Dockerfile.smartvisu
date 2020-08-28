@@ -11,7 +11,7 @@ ENV SHNG_SMARTVISU_BRANCH=$SHNG_SMARTVISU_BRANCH
 ## Images labels
 LABEL   version = $SHNG_SMARTVISU_BRANCH \
         description = "SmartVisu image"
-        maintainer = "Serge Wagener serge@wagener.family"
+        maintainer = "Marco Busslinger"
 
 COPY entrypoint.sh /
 
